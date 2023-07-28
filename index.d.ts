@@ -3740,6 +3740,7 @@ declare namespace Eris {
     staticAvatarURL: string;
     system: boolean;
     username: string;
+	globalName: string;
     constructor(data: BaseData, client: Client);
     addRelationship(block?: boolean): Promise<void>;
     deleteNote(): Promise<void>;
