@@ -3024,6 +3024,7 @@ declare namespace Eris {
     discoverySplash: string | null;
     discoverySplashURL: string | null;
     emojis: Emoji[];
+	stickers: Sticker[];
     features: GuildFeatures[];
     icon: string | null;
     iconURL: string | null;
