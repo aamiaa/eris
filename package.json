@@ -12,7 +12,10 @@
       "./index.js"
     ],
     "./": "./",
-    "./esm": "./esm.mjs"
+    "./esm": "./esm.mjs",
+    "./lib/structures/Channel": "./lib/structures/Channel.js",
+    "./lib/structures/User": "./lib/structures/User.js",
+    "./lib/rest/Endpoints": "./lib/rest/Endpoints.js"
   },
   "typings": "./index.d.ts",
   "engines": {
